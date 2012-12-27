@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"><ImageView
+        android:id="@+id/run_image"
+        android:layout_width="2000dip"
+        android:layout_height="match_parent"
+		android:src="@drawable/ghost"                        android:scaleType="matrix"
+        /></LinearLayout>
+        <org.treant.scrollgrid1.util.DragGridView
+           android:id="@+id/myGridView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:padding="10dip"
+           android:numColumns="2"
+           android:listSelector="@drawable/facevoid"
+           android:horizontalSpacing="0dp"
+           android:verticalSpacing="0dp"
+           android:stretchMode="columnWidth"
+           android:gravity="center" 
+            />
+        
+        
+	
+</RelativeLayout>
